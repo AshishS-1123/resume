@@ -51,7 +51,7 @@ const skills = {
   stack: [
     sectionHeading('Skills'),
     {
-      text: 'React, JavaScript (ES6+), PostgreSQL, Node.js, Express, Redux, HTML, CSS, SASS, SQLite3, MongoDB, TDD, Jest, Enzyme, RESTful APIs, GraphQL, Git',
+      text: 'Dart, Flutter, BLoC, Drift, SQLite, GoRouter, Protocol Buffers, React, PostgreSQL, Node.js, Express, Redux, TDD, Jest, Enzyme, RESTful APIs, GraphQL, Git',
     }
   ],
 };
@@ -62,7 +62,7 @@ const workExperience = {
     sectionSubHeading('Fullstack Developer - Tata Consultancy Services', `August 2022 - Present (${Number((((new Date().getFullYear() - 2022) * 12 + (new Date().getMonth() - 8 + 1)) / 12).toFixed(1))} Years)`),
     sectionSubSubHeading('Day to Day Responsibilities'),
     listItems([
-      'Worked on a project management SPA built using React, Node, PostgreSQL and GraphQL for users to track different aspects of their factories using KPIs, graphs and tables.',
+      'Worked on a project management SPA built using React, Node, PostgreSQL and GraphQL for users to track different aspects of their factories using KPIs, graphs, tables and reports.',
       // 'Built complex workfows to enable users to take action against low KPIs and analyze trends & patterns. Generated automated Excel and PDF reports for business meetings.',
       // 'Collaborated closely with business analysts, end-users and other stakeholders to deliver features and obtain feedback.',
       'Conceptualized and delivered 15+ comprehensive dashboards, often developing both front-end and back-end.',
