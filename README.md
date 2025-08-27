@@ -12,6 +12,6 @@ Some of the advantages of generating my resume this way are -
 
 <object data="github.com/AshishS-1123/resume/resumes/Ashish Shevale - MERN Stack Developer.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="github.com/AshishS-1123/resume/resumes/Ashish Shevale - MERN Stack Developer.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="github.com/AshishS-1123/resume/resumes/Ashish Shevale - MERN Stack Developer.pdf">Download PDF</a>.</p>
+        <p>Here is the latest copy of my resume: <a href="github.com/AshishS-1123/resume/resumes/Ashish Shevale - MERN Stack Developer.pdf">Download PDF</a>.</p>
     </embed>
 </object>
