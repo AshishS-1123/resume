@@ -94,7 +94,7 @@ const skills = {
   stack: [
     sectionHeading('Skills'),
     {
-      text: 'Javascript, PostgreSQL, GraphQL, React, Express, REST APIs, AWS (S3, EC2, RDS), CI/CD (Jenkins, GitHub Actions), Unit Testing, Integration Testing, API Design, Agile',
+      text: 'Javascript, PostgreSQL, GraphQL, React, REST APIs, AWS (S3, EC2, RDS), CI/CD (Jenkins, GitHub Actions)',
     }
   ],
 };
@@ -103,17 +103,17 @@ const workExperience = {
   marginTop: 8,
   stack: [
     sectionHeading('Work Experience'),
-    sectionSubHeading('Tata Consultancy Services', `August 2022 - Present (${new Date().getFullYear() - 2022}+ Years)`),
+    sectionSubHeading('Tata Consultancy Services', `August 2022 - Present (${new Date().getFullYear() - 2022} Years)`),
     listItems([
-      'Built **data-driven workflows** enabling clients to act on KPI drops and improve operational efficiency.',
-      'Partnered with analysts and stakeholders to deliver user-focused features through iterative feedback cycles.',
+      'Expert Fullstack Developer proficient in PostgreSQL, Node and React.',
+      '**Reduced report download time** from 6 minutes to 2 seconds using SQL optimizations and a combination of AWS S3 and cron jobs to pre-generate reports.',
+      'Created reusable React components using **Test Driven Development** to redesign a legacy dashboard, **reducing development time by 24 days**.',
+      '**Lowered page load time** to less than 3 seconds through route-based code splitting and advanced service-worker caching.',
       '**Mentored junior developers** and conducted in-depth** code reviews** to enforce coding standards, validate database/API design, and catch logical issues.',
-      '**Lowered page load time** to <3 seconds through route-based code splitting and advanced service-worker caching.',
+      '**Optimized Jenkins CI/CD** pipeline and **reduced deployment time** from 30 minutes to 12 minutes.',
+      'Built **data-driven workflows** enabling clients to act on KPI drops and improve operational efficiency.',
+      '**Performed code migration** from Node 8 to Node 20 for frontend and backend, including updating dependencies, webpack config and Jenkins pipelines.',
       '**Optimized SQL queries**, developed multiple back-end stories, and maintained a suite of **reusable React components**.',
-      'Migrated Jenkins CI/CD pipeline and **reduced deployment time** from 30 minutes to 12 minutes.',
-      'Used SQL operations, **AWS S3**, and cron jobs to pre-generate reports to **reduce download time** from 6 minutes to 2 seconds.',
-      'Led the redesign of a legacy dashboard by creating components with **Test-Driven Development (TDD)**. Refactoring and component reuse reduced development time by 24 days.',
-      'Migrated UI and API repository, dependencies, **webpack** config and **Jenkins** pipelines from Node 8 to Node 20.',
       'Recognized with the **Star of the Quarter Award**.',
     ]),
   ],
@@ -123,6 +123,16 @@ const projects = {
   marginTop: 8,
   stack: [
     sectionHeading('Projects'),
+    sectionSubHeading('Clickup Clone', 'GitHub (71 Stars, 21 Forks)', 'https://github.com/AshishS-1123/ClickUp-Clone'),
+    listItems([
+      'Built a clone of the ClickUp project management tool using **Next.js, Express and MongoDB**.',
+      'Designed **REST APIs** and hierarchical data model for workspaces, folders and tasks to support nested relationships and querying.',
+      'Used **Redux** & ** Thunk**, and **Container-Component** architecture to maintain separation of concerns between UI and data.',
+      'Built frontend using reusable **functional components** and **hooks**.',
+      'Built backend using **Model-View-Controller** pattern, with reusable middleware for auth, error handling and data validation.',
+      'Developed Kanban board for visualizing tasks and drag-and-drop updates.'
+    ]),
+
     sectionSubHeading('Moderation (Financial Planner App)', 'Android Play Store', 'https://play.google.com/store/apps/details?id=com.ashishshevale.moderation'),
     listItems([
       'Owned the **full app lifecycle** - from UI/UX design and feature implementation to automated testing, CI/CD setup and Play Store deployment, ensuring a seamless release process.',
@@ -132,14 +142,6 @@ const projects = {
       'Integrated with Google Cloud APIs (Drive and Sheets) to support encrypted data backup and restore',
       'Used **AdMob** (rewarded ads) and **RevenueCat** (monthly subscriptions) for monetization.',
       'Features Implemented - Budget Planner, Shopping Lists, Data Backup, Habit Tracker, Analytics, Excel Data Import, and Liquidity Alerts.'
-    ]),
-
-    sectionSubHeading('Clickup Clone', 'GitHub (71 Stars, 21 Forks)', 'https://github.com/AshishS-1123/ClickUp-Clone'),
-    listItems([
-      'Built a clone of the ClickUp project management tool using **Next.js, Express and MongoDB**.',
-      'Designed **REST APIs** and hierarchical data model for workspaces, folders and tasks to support nested relationships and querying.',
-      'Used **Redux** & ** Thunk**, and **Container-Component** architecture to maintain separation of concerns between UI and data.',
-      'Developed Kanban board for visualizing tasks and drag-and-drop updates.'
     ]),
   ],
 };
