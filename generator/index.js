@@ -48,12 +48,12 @@ const splitBold = (text) => {
   while ((match = regex.exec(text)) !== null) {
     if (match[1] !== undefined) {
       // Bold text
-      result.push({ text: match[1], bold: true });
+      result.push({ text: match[1], bold: true, color: '#000' });
     } else if (match[2] !== undefined) {
       // Plain text
       const plainText = match[2];
       if (plainText) {
-        result.push({ text: plainText, color: '#000' });
+        result.push({ text: plainText });
       }
     }
   }
@@ -98,7 +98,7 @@ const skills = {
     },
     sectionHeading('Skills'),
     {
-      text: 'JS/TS, **PostgreSQL**, GraphQL, **React**, AWS (S3, EC2, RDS), CI/CD (Jenkins, GitHub Actions)',
+      text: splitBold('**PostgreSQL**, **React**, Javascript, GraphQL, AWS (S3, EC2, RDS), CI/CD (Jenkins, GitHub Actions)'),
     }
   ],
 };
@@ -107,16 +107,16 @@ const workExperience = {
   marginTop: 8,
   stack: [
     sectionHeading('Work Experience'),
-    sectionSubHeading('Tata Consultancy Services', `August 2022 - Present (3.5 Years)`),
+    sectionSubHeading('Tata Consultancy Services', `August 2022 - Present (3.7 Years)`),
     listItems([
       'Reduced report download time from **6 minutes to 2 seconds** by optimizing **SQL queries** and implementing **AWS S3** pre-generation.',
       'Engineered a reusable **charting library for pdfmake** to create dynamic line, bar and pie charts in PDFs.',
       'Created reusable React components using **Test Driven Development** to redesign a legacy dashboard, **reducing development time by 24 days**.',
-      '**Lowered page load time** to less than 3 seconds through route-based code splitting and service-worker caching.',
+      'Achieved sub-3-second page loads via **route-based code splitting** and **service-worker caching**.',
       '**Mentored junior developers** and conducted in-depth** code reviews** to enforce coding standards, validate database/API design, and catch logical issues.',
       '**Optimized Jenkins CI/CD** pipeline and **reduced deployment time** from 30 minutes to 12 minutes.',
       'Built **data-driven workflows** enabling clients to act on KPI drops and improve operational efficiency.',
-      '**Performed code migration** from Node 8 to Node 20 for frontend and backend, including updating dependencies, webpack config and Jenkins pipelines.',
+      'Spearheaded migration from **Node 12 to Node 20**, including full dependency updates and **Jenkins CI/CD** pipeline optimization.',
       '**Optimized SQL queries**, developed multiple back-end stories, and maintained a suite of **reusable React components**.',
       'Recognized with the **Star of the Quarter Award**.',
     ]),
@@ -137,7 +137,7 @@ const projects = {
       'Used **AdMob** (rewarded ads) and **RevenueCat** (monthly subscriptions) for monetization.',
       'Features Implemented - Budget Planner, Shopping Lists, Data Backup, Habit Tracker, Analytics, Excel Data Import, and Liquidity Alerts.'
     ]),
-    sectionSubHeading('Clickup Clone', 'GitHub (71 Stars, 21 Forks)', 'https://github.com/AshishS-1123/ClickUp-Clone'),
+    sectionSubHeading('Clickup Clone (74 Stars & 22 Forks on GitHub)', 'GitHub', 'https://github.com/AshishS-1123/ClickUp-Clone'),
     listItems([
       'Built a clone of the ClickUp project management tool using **Next.js, Express and MongoDB**.',
       'Designed **REST APIs** and hierarchical data model for workspaces, folders and tasks to support nested relationships and querying.',
@@ -179,6 +179,7 @@ const docDef = {
   pageMargins: [16, 16, 16, 16],
   defaultStyle: {
     fontSize: 12,
+    color: '#0f0f0f'
   },
   content: [
     header,
