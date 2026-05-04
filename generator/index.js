@@ -78,11 +78,9 @@ const header = {
         {
           alignment: 'right',
           text: [
-            { text: 'LinkedIn', link: 'https://linkedin.com/in/ashish-shevale', color: '#3c51b4' },
+            { text: 'linkedin.com/in/ashish-shevale', link: 'https://linkedin.com/in/ashish-shevale', color: '#3c51b4' },
             { text: ' | ' },
-            { text: 'GitHub', link: 'https://github.com/AshishS-1123', color: '#3c51b4' },
-            { text: ' | ' },
-            { text: 'StackOverflow', link: 'https://stackoverflow.com/users/14405606/ashish-shevale', color: '#3c51b4' },
+            { text: 'github.com/AshishS-1123', link: 'https://github.com/AshishS-1123', color: '#3c51b4' },
           ]
         },
       ],
@@ -141,7 +139,7 @@ const projects = {
     listItems([
       'Built a clone of the ClickUp project management tool using **Next.js, Express and MongoDB**.',
       'Designed **REST APIs** and hierarchical data model for workspaces, folders and tasks to support nested relationships and querying.',
-      'Used **Redux** & ** Thunk**, and **Container-Component** architecture to maintain separation of concerns between UI and data.',
+      'Used **Redux** & **Thunk**, and **Container-Component** architecture to maintain separation of concerns between UI and data.',
       'Built frontend using reusable **functional components** and **hooks**.',
       'Developed Kanban board for visualizing tasks and drag-and-drop updates.'
     ]),
